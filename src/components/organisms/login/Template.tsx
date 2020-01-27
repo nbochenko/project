@@ -6,7 +6,7 @@ export const Template = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.buttonText}>Login</Text>
-            <TextInput style={styles.textInput}>slip</TextInput>
+            <TextInput style={styles.textInput} placeholder='Email'></TextInput>
         </View>
     )
 }
